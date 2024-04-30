@@ -1,56 +1,18 @@
+*{
+    /* border: solid black 1px; */
+    color: white;
+}
 body {
-	font-family: 'Dosis', sans-serif;
-    color: #404142;
-    font-size: 16px;
-	letter-spacing: 0.8px;
     background-color: #016cc7;
 }
-h1, h2, h3, h4, h5, h6 {
-	font-weight: 200;
+li{
+    font-size: 1.5em;
 }
-ul {
-	margin: 0;
-	padding: 0;
-}
-a {
-	-webkit-transition: all 0.3s;
-  	-moz-transition: all 0.3s;
-  	transition: all 0.3s;
-}
-a:hover, a:focus, a:active, a:visited {
-    text-decoration: none;
-}
-
-/* Buttons override */
-.btn {
-	text-transform: uppercase;
-    font-weight: 600;
-}
-.btn-lg {
-	padding: 15px 40px;
-    font-size: 16px;
-    line-height: none;
-    border-radius: 4px;
-}
-.content-ct {
-	text-align: center;
-}
-
-/* ------------------
-	Navigation 
------------------- */
-.form-control {
-    padding: 20px 15px;
-    border: 3px solid #eee;
-    background-color: #f9f9f9;
-    box-shadow: none;
-}
-.help-block {
-    font-size: 12px;
-}
-.form-control-feedback {
-    top: 15px;
-    right: 15px;
+.list {
+    font-family: "Baloo Da 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .animated { 
@@ -79,48 +41,4 @@ a:hover, a:focus, a:active, a:visited {
 .bounce { 
     -webkit-animation-name: bounce; 
     animation-name: bounce; 
-}
-
-/* ========================================
-    Custom Media Queries
-======================================== */
-
-/* Mobile */
-
-@media (max-width: 767px) {
-    .speaker .feature {
-        width: 100%
-    }
-    .footer-credit {
-        text-align: center;
-        padding: 40px 20px;
-    }
-}
-
-.hero-header{
-    width: 10%;
-}
-/* iPad Portrait */
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .hero-header {
-        text-align: center;
-    }
-    .speaker .feature {
-        width: 49%;
-        margin-right: 7px;
-    }
-    ul.footer-menu {
-        margin-top: 0;
-    }
-}
-
-
-/* iPad Landscape */
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .speaker .feature {
-        width: 49%;
-        margin-right: 9px;
-    }
 }
